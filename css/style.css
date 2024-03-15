@@ -1,0 +1,30 @@
+@font-face {
+    font-family: test;
+    src: url("fonts/SHARJAH\ .OTF");
+}
+
+body{
+    font-family: test;
+    background-image: url("/background.jpeg");
+}
+
+#logo > img {
+    width:150px;
+    height:150px;
+ }
+
+ #logo{
+    display: flex;
+    justify-content: center;
+ }
+
+ .web-title{
+    color:#8b2f2f;
+    text-align: center;
+ }
+ footer{
+    background-color: #8b2f2f;
+    text-align: center;
+    color:#fff
+ }
+
